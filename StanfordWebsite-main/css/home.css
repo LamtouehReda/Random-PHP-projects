@@ -1,0 +1,655 @@
+
+
+.container-fluid{
+	background: #03182F;
+}
+
+.nav-link{
+	color: #ffffff !important;
+	font-size: 18px;
+	margin-right: 5px;
+	font-family: monospace;
+}
+.nav-item{
+	margin:2 2 2 2;
+	font-weight: bold;
+}
+.nav-link:hover {
+ color:#B303AB !important;
+ text-decoration:underline;
+ font-weight:600;
+ 
+}
+.dropdown-item {
+    font-weight: bold;
+}
+.logo{
+	margin:30px 0 20px 70px;
+}
+
+
+
+.p1{
+	position: relative;
+	display: block;
+    font-size: 55px;
+    color: white;
+}
+.text {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+}
+
+.p1>img{
+	height: 600px;
+	width: 100%;
+
+}
+.p2{
+	text-align: center;
+	padding: 40px 70px 40px 70px;
+    font-size: 23px;
+    color: black;
+    line-height: 1.8;
+    font-style: oblique;
+}
+.p2>h2{
+	padding-bottom: 40px;
+}
+
+.p3{
+	height: 290px;
+	background: #03182F;
+	display: flex;
+}
+
+.p3>img{
+    margin-right: 50px;
+    margin-top: 50px;
+	height: 300px;
+	width: 300px;
+}
+
+
+.p3>p{
+	margin-top:50px;
+    color: white;
+	font-size: 50px;
+	line-height: 1.5;
+}
+
+.p4{
+	display: flex;
+	padding:50px 110px 50px 110px;
+}
+
+.p4>div>p{
+	font-size: 20px;
+	line-height: 2;
+	font-family: arial;
+	padding: 10px 30px 10px 0px;
+}
+
+.p4>div>p>span{
+	padding-top: 40px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: arial;
+}
+
+.p5{
+	background: #5a1b5b;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px
+}
+.p5>a{
+	text-decoration: none;
+	color: white;
+}
+
+.p6,.p7{
+	display: flex;
+	margin-top: 30px;
+}
+.p6>div>img,.p7>div>img{
+	height: 400px;
+	width: 700px;
+}
+.p6>div,.p7>div{
+	padding:20px 45px 20px 45px;
+}
+.p6>div>span,.p7>div>span{
+	font-weight: bold;
+	color: grey;
+}
+
+.p6>div>h1,.p7>div>h1{
+	margin-bottom: 20px;
+	margin-top: 15px;
+	color: #1c5f8f;
+	font-weight: bold;
+    line-height: 1.5;
+}
+
+.p6>div>p,.p7>div>p{
+	color: grey;
+	font-family: arial;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+.p6>div>button,.p7>div>button{
+	border-radius: 100px;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.p8{
+	display: flex;
+	background: #03182F;
+	padding: 50px 100px 50px 100px;
+	color: white;
+}
+.p8>.left>img{
+	width: 700px;
+	margin-bottom: 25px;
+}
+.p8>.left{
+	margin-right: 40px;
+	line-height: 2;
+	font-size: 17px;
+}
+.p8>.right{
+	padding-top: 60px;
+}
+.p8>.right>.story{
+	margin-bottom: 25px;
+	display: flex;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.p8>.right>.story>img{
+	width: 90px;
+	height: 70px;
+	margin-right: 25px;
+}
+.p8>.right>.story>h5{
+    color: #1C85FF;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.p8>.right>.story>h5>a{
+text-decoration: none;
+}
+.p8>.right>.story>h5>a:hover{
+text-decoration: underline;
+}
+.p8>.left>h3>a{
+    color: #1C85FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.p8>.left>h3>a:hover{
+    text-decoration: underline;
+}
+.p8>div>button{
+	border-radius: 100px;
+	font-size: 20px;
+	padding-right: 100px;
+	padding-left: 100px;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+}
+
+.p8>div>button:hover{
+	color: #03182F;
+	background-color: white;
+    text-decoration: underline;
+}
+.p9{
+background-color: #f1ffff;
+padding: 50px 100px 50px 100px;
+}
+
+.inp9{
+	display: flex;
+    justify-content: space-around;
+}
+.inp9>div{
+	margin: 10px 10px 10px 10px;
+	background-color: white;
+	color: #505050;
+	padding: 30px 20px 30px 20px;
+	line-height: 1.4;
+	font-family: arial;
+	font-size: 17px;
+	height: 350px;
+	width: 450px;
+	position: relative;
+}
+
+.inp9>div>span {
+	position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.p9>div>button{
+	border-radius: 100px;
+	font-size: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	border: 2px solid #1C85FF;
+	color: #1C85FF;
+	font-weight: bold;
+}
+
+#myFooter {
+    background-color:#03182F ;
+    color: white;
+    padding: 80px 90px 100px 90px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+#myFooter li {
+    margin-bottom: 10px;
+
+}
+
+#myFooter h5 ,img{
+	font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+#myFooter a {
+    color: white;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .fab{
+margin-right: 15px;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+#myFooter button{
+	border-radius: 100px;
+	font-size: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+}
+
+#myFooter button:hover{
+	border: 2px solid #03182F;
+	color: #03182F;
+	background-color: white;
+}
+
+/*WELCOME CSS*/
+.WelcomeDiv{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 60px;
+	font-size: 20px;
+	font-family: arial;
+	line-height: 1.8;
+	letter-spacing: 1.5px;
+}
+
+.WelcomeDiv h1, h3{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.WelcomeDiv h1{
+	font-weight: bold;
+	font-size: 50px;
+
+}
+
+.WelcomeDiv h3{
+	font-size: 40px;
+}
+.WelcomeDiv iframe{
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 20px; 
+}
+
+/*Values css*/
+.valuesDiv, .corporatesDiv,.ResearchesDiv{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 60px;
+	font-size: 20px;
+	font-family: arial;
+	line-height: 1.8;
+	letter-spacing: 1.5px;
+}
+.valuesDiv h2,.corporatesDiv h2,.ResearchesDiv h2{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.valuesDiv h1,.corporatesDiv h1,.ResearchesDiv h1{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.valuesDiv button, .corporatesDiv button{
+	border-radius: 100px;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+/*Careers.css*/
+.careersDiv{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 60px;
+	font-size: 25px;
+	font-family: arial;
+	line-height: 1.8;
+	letter-spacing: 1.5px;
+}
+.careersDiv h1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*Fundraising policy css*/
+.fundraisingDiv{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 60px;
+	font-size: 20px;
+	font-family: arial;
+	line-height: 1.8;
+	letter-spacing: 1.5px;
+}
+.fundraisingDiv h2{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.fundraisingDiv h1{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-weight: bold;
+	font-size: 50px;
+}
+.ResearchesDiv h3{
+	color: #17B9FF;
+	text-align: normal;
+}
+
+.leadershipContent{
+	display: flex;
+	padding-right:  150px;
+	padding-left: 200px;
+	color: #4B4B4B;
+}
+.title{
+	text-align: center;
+	 font-weight: bold;
+	  margin-top: 70px;
+	  margin-bottom: 100px;
+}
+
+.leadershipDiv>.cat{
+	text-align: center;
+	 margin-bottom: 40px;
+}
+
+
+.leadershipContent>.left{
+	margin-top: 80px;
+}
+
+.leadershipContent>.left>.first{
+	font-style: italic;
+	letter-spacing: 1.3;
+	line-height: 2;
+}
+
+.leadershipDiv img{
+	width: 400px;
+	border: 10px solid white;
+	box-shadow: 5px 5px 5px 5px;
+}
+.leadershipDiv .right{
+	margin-left: 40px;
+}
+.advisoryDiv{
+	display: flex;
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-top: 50px;
+	justify-content: space-between; 
+}
+.advisoryDiv img{
+  	border: 10px solid white;
+	box-shadow: 5px 5px 5px 5px;
+	height: 230px;
+	width: 200px;
+	  
+}
+.advisoryDiv div{
+	flex: 1 0 21%;
+}
+.advisoryDiv h5{
+	font-weight: bold;
+}
+.advisoryDiv span{
+	font-style: italic;
+	letter-spacing: 1.2;
+	line-height: 1.5;
+	padding: 10px 20px 10px 20px;
+}
+.faculty{
+	background: grey;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.cloudcards{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
+.cloudfooter{
+	text-align: center;
+}
+
+.cloudfooter div{
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:629px) {
+  .p3>img {
+    display: none;
+  }
+  .p3>p{
+    font-size: 30px;
+  }
+  .p3{
+  	height: 350px;
+  }
+   .p2{
+   	font-size: 16px;
+  	height: 350px;
+    padding: 20px 9px 9px 9px;
+ }
+   .p2>h2{
+   	padding-bottom: 9px;
+   }
+   .p4{
+   	display: block;
+   	font-size: 16px;
+   	padding: 20px 20px 20px 20px;
+   	text-align: center;
+   	line-height: normal;
+   }
+   .p6,.p7{
+   	display: block;
+   }
+   .p6>div>img,.p7>div>img{
+       height: 300px;
+       width: 100%;
+   }
+   .p8{
+   	display: block;
+   	padding: 20px 10px 20px 10px;
+   }
+   .p8>.left>img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+.p8>.left{
+	margin-right: 20px;
+	line-height: 1.5;
+	font-size: 15px;
+}
+.p9>.inp9{
+	display: block;
+}
+.p9{
+		padding: 10px 10px 10px 10px;
+}
+.p9>.inp9>div{
+	width: 100%;
+	height: 100%;
+}
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+.WelcomeDiv iframe{
+width: 100%;
+}
+
+.WelcomeDiv {
+	font-size: 15px;
+	line-height: normal;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.valuesDiv {
+	font-size: 15px;
+	line-height: normal;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.careersDiv,.fundraisingDiv,.corporatesDiv,.ResearchesDiv{
+	font-size: 15px;
+	line-height: normal;
+	padding-right: 20px;
+	padding-left: 20px;	
+}
+.careersImg{
+	width: 100%;
+}
+.corporatesDiv img{
+	width: 100%;
+}
+.leadershipContent{
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.leadershipDiv .right{
+	margin-left: 0px;
+}
+.title{
+	text-align: center;
+	 font-weight: bold;
+	  margin-top: 30px;
+	  margin-bottom: 50px;
+}
+
+.leadershipDiv>.cat{
+	text-align: center;
+	 margin-bottom: 5px;
+}
+.advisoryDiv img{
+width: 100%;
+}
+.advisoryDiv{
+	display: block;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.cloudcards{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+}
+} 

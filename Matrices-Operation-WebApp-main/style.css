@@ -1,0 +1,27 @@
+input{
+	height: 40px;
+	width: 40px;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+body{
+	background-image: url(https://th.bing.com/th/id/R.3773a1822965f7219b36eff612779b10?rik=%2fccE%2b3ED1fBoag&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f226635-mathematics-equations-science-3D.jpg&ehk=7Me8L%2byHMKNRpxV0hwqudkAZl0uuqu3KcsEn1kuyyaQ%3d&risl=&pid=ImgRaw&r=0);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 60px;
+	color: white;
+}
+select{
+	height: 50px;
+	width: 150px;
+	font-weight: bold;
+	text-align: center;
+	justify-content: center;
+}
