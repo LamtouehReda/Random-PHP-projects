@@ -1,0 +1,39 @@
+REISSUANCE:
+
+13 September 2022
+4:19 PM
+
+Elements To specify : 
+
+	Base Fare	Fare difference	Tax difference	Penalties	Service fee
+					
+
+	Steps for reissuance :
+	• PCS:
+		○ Check the TKT
+		○ Add new flight 
+		○ Reprice
+		○ Confirm the fare
+		○ Delete previous TST
+		○ Add service fee(Launch smart flow -> Airline service fee)
+		○ Manage payment
+		○ Delete previous flight
+		○ Issue Document
+	• Payment Link:
+		○ Jump to right office ID
+		○ Add the new flights
+		○ Reprice and save TST(Service fees,..)
+		○ Delete unwanted segment
+		○ Ticketing arrangement, TKTL
+		○ Add old form of payment( cryptic window : FPO/CCVI)
+		○ Add SK 
+		
+	
+	Notes:
+	• In reissuance make sure to select the same RBD as the original flight.
+	• Add service fee
+	• Payment Link Time Limit for Reissuance: 
+	Days	TTL
+	AP Rule	23:59
+	2-361	6H
+	0-1	4H
